@@ -1,0 +1,4 @@
+default:
+  ncol: 6
+dev:
+  golem_wd: !expr here::here()
