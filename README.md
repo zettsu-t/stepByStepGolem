@@ -1,2 +1,3 @@
-# stepByStepGolem
-Making a Shiny app with the golem package step by step
+# golemでShinyアプリを作る
+
+golem で Shiny アプリを作るときに、段階的にコードを追加していく例です。
