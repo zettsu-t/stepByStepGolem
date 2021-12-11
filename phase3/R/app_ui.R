@@ -5,7 +5,10 @@
 #' @import shiny
 #' @noRd
 app_ui <- function(request) {
-  shiny::fluidPage(mod_table_ui("sample"))
+  shiny::fluidPage(
+    tags$style(".container-fluid {background-color: #f0ffff;}"),
+    mod_table_ui("sample")
+  )
 }
 
 #' Add external Resources to the Application
